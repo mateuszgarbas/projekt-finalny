@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 /** Kolory / style */
 const GOLD = "#d4af37";
-const GOLD_HOVER = "#ffcc33"; // teraz jest używany w klasach
+const GOLD_HOVER = "#ffcc33"; // teraz faktycznie używane
 
-const goldButtonClass = `transition-transform active:scale-[.98] bg-red-500 hover:bg-red-600 text-white px-6 py-3 font-semibold shadow-lg rounded-2xl`;
+const goldButtonClass = `transition-transform active:scale-[.98] bg-[${GOLD}] hover:bg-[${GOLD_HOVER}] text-black px-6 py-3 font-semibold shadow-lg rounded-2xl`;
 const whiteButtonClass = `transition-transform active:scale-[.98] bg-white hover:bg-neutral-200 text-black px-6 py-3 font-semibold shadow-lg rounded-2xl`;
 
 /** Opinie */
