@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const GOLD = "#d4af37";
 const GOLD_HOVER = "#ffcc33"; // teraz jest używany w klasach
 
-const goldButtonClass = `transition-transform active:scale-[.98] border border-[#d4af37] text-[#d4af37] px-4 py-2 text-sm font-semibold shadow-lg rounded-xl hover:bg-[#d4af37] hover:text-black`;
+const goldButtonClass = `transition-transform active:scale-[.98] bg-red-500 hover:bg-red-600 text-white px-6 py-3 font-semibold shadow-lg rounded-2xl`;
 const whiteButtonClass = `transition-transform active:scale-[.98] bg-white hover:bg-neutral-200 text-black px-6 py-3 font-semibold shadow-lg rounded-2xl`;
 
 /** Opinie */
